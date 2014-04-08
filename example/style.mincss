@@ -1,7 +1,15 @@
 /** style.css */
 
 {{background:#444}}
+{{color:#fff}}
 
 body {
 	background-color: {{background}};
+	color: {{color}};
+}
+
+{{base_margin:2em}}
+
+h1 {
+	margin: {{base_margin}};
 }
