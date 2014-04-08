@@ -2,10 +2,12 @@
 
 {{background:#444}}
 {{color:#fff}}
+{{font:"Trebuchet MS", Helvetica, Arial, sans-serif}}
 
 body {
 	background-color: {{background}};
 	color: {{color}};
+	font-family: {{font}};
 }
 
 {{base_margin:2em}}
