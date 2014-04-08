@@ -53,7 +53,7 @@ function mincss_load ($file)
 	/**
 	 * Render as CSS
 	 */
-	header('Content-Type: text/css');
+	header('Content-Type: text/css; charset: UTF-8');
 	echo $data;
 
 	/**
